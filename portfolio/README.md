@@ -1,6 +1,8 @@
 # Modern Developer Portfolio
 
 ![Portfolio Screenshot](./public/screenshot.png) <!-- Add your screenshot after uploading -->
+![image](https://github.com/user-attachments/assets/ea73ec84-c599-4c66-aacc-758426f32077)
+
 
 A sleek, responsive portfolio website built with React, Vite, and Tailwind CSS featuring dark mode, smooth animations, and a modern workflow section.
 
