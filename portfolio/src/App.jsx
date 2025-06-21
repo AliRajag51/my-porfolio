@@ -216,7 +216,7 @@ const App = () => {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-12 md:mb-0">
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                  Hi <span clas>👋</span> I'm{" "}
+                  Hi <span className="wave">👋</span> I'm{" "}
                   <span className="gradient-text">Ali Haider</span>
                 </h1>
                 <h2 className="text-2xl md:text-3xl font-semibold mb-6">
