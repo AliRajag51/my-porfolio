@@ -253,7 +253,7 @@ const App = () => {
                     } flex items-center justify-center overflow-hidden`}
                   >
                     <img
-                     img src="https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/heroImage_asf6lq.png" 
+                      src="https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/heroImage_asf6lq.png" 
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
@@ -641,11 +641,11 @@ const App = () => {
                   } shadow-md`}
                 >
                   <div className="h-48 overflow-hidden">
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                    />
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-semibold mb-2">
