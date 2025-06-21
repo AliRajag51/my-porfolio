@@ -16,7 +16,6 @@ import {
   FaGraduationCap,
 } from "react-icons/fa";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
-import heroImage from './assets/heroImage.png'; // adjust the path relative to the file
 
 
 const App = () => {
@@ -254,7 +253,7 @@ const App = () => {
                     } flex items-center justify-center overflow-hidden`}
                   >
                     <img
-                     src={heroImage}
+                     img src="https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/heroImage_asf6lq.png" 
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
@@ -291,7 +290,7 @@ const App = () => {
                   } border-2`}
                 >
                   <img
-                    src="./src/assets/heroImage.png"
+                    src="https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/heroImage_asf6lq.png"
                     alt="About Me"
                     className="w-full h-full object-cover"
                   />
@@ -597,42 +596,42 @@ const App = () => {
                   description:
                     "A full-featured online store with cart, checkout and admin dashboard.",
                   tags: ["React", "Node.js", "MongoDB"],
-                  image: "./src/assets/Bag-Image.png",
+                  image: "https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/Bag-Image_akybm3.png",
                 },
                 {
                   title: "Social Media App",
                   description:
                     "A Twitter-like platform with real-time updates and user interactions.",
                   tags: ["react", "Firebase", "Tailwind CSS"],
-                  image: "./src/assets/twitter.png",
-                },
+                  image: "https://res.cloudinary.com/dk84jtof9/image/upload/v1750499035/twitter_d14t7t.png",
+                },  
                 {
                   title: "Task Management",
                   description:
                     "A productivity app with drag-and-drop interface and team collaboration.",
                   tags: ["React", "Redux", "Express"],
-                  image: "./src/assets/task.png",
+                  image: "https://res.cloudinary.com/dk84jtof9/image/upload/v1750499035/twitter_d14t7t.png",
                 },
                 {
                   title: "Weather Dashboard",
                   description:
                     "Real-time weather forecasts with interactive maps and alerts.",
                   tags: ["JavaScript", "API", "CSS"],
-                  image: "./src/assets/weather.png",
+                  image: "https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/weather_annnsx.png",
                 },
                 {
                   title: "Fitness Tracker",
                   description:
                     "Mobile app for tracking workouts, nutrition and progress.",
                   tags: ["React ", "Node.js", "MongoDB"],
-                  image: "./src/assets/fitness.png",
+                  image: "https://res.cloudinary.com/dk84jtof9/image/upload/v1750499035/fitness_avfyhs.png",
                 },
                 {
                   title: "Recipe Finder",
                   description:
                     "Search engine for recipes with dietary filters and meal planning.",
                   tags: ["React", "Node.js", "PostgreSQL"],
-                  image: "./src/assets/recipe.png",
+                  image: "https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/recipe_dqancy.png",
                 },
               ].map((project, index) => (
                 <div
