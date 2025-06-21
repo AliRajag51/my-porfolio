@@ -16,7 +16,7 @@ import {
   FaGraduationCap,
 } from "react-icons/fa";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
-import { motion, AnimatePresence } from "framer-motion";
+import heroImage from './assets/heroImage.png'; // adjust the path relative to the file
 
 
 const App = () => {
@@ -254,7 +254,7 @@ const App = () => {
                     } flex items-center justify-center overflow-hidden`}
                   >
                     <img
-                      src="./src/assets/heroImage.png"
+                     src={heroImage}
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
