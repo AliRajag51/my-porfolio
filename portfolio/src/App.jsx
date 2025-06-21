@@ -219,7 +219,7 @@ const App = () => {
                   <span className="gradient-text">Ali Haider</span>
                 </h1>
                 <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-                  Full Stack Developer
+                  Software Engineer & Full Stack Developer
                 </h2>
                 <p
                   className={`text-lg mb-8 ${
