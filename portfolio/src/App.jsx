@@ -596,7 +596,7 @@ const App = () => {
                   description:
                     "A full-featured online store with cart, checkout and admin dashboard.",
                   tags: ["React", "Node.js", "MongoDB"],
-                  image: "https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/Bag-Image_akybm3.png",
+                  image: "https://res.cloudinary.com/dk84jtof9/image/upload/v1750499037/Bag-Image.png",
                 },
                 {
                   title: "Social Media App",
